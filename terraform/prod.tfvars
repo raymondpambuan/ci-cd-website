@@ -9,4 +9,4 @@ tags = {
 }
 
 # Project Specific Variables
-static_bucket_name = awscc-mu-website-bucket"
+static_bucket_name = "awscc-mu-website-bucket"
