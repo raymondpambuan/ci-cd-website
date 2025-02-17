@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Cloud Club - Mapúa University Manila</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-orange-600 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center text-white">
+            <h1 class="text-3xl font-bold">AWS Cloud Club</h1>
+            <ul class="flex space-x-8 text-lg">
+                <li><a href="#home" class="hover:text-gray-100 transition-colors">Home</a></li>
+                <li><a href="#events" class="hover:text-gray-100 transition-colors">Events</a></li>
+                <li><a href="#register" class="hover:text-gray-100 transition-colors">Register</a></li>
+                <li><a href="#blogs" class="hover:text-gray-100 transition-colors">Blog</a></li>
+                <li><a href="#contact" class="hover:text-gray-100 transition-colors">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-orange-800 text-white text-center py-24">
+        <div class="container mx-auto">
+            <h2 class="text-5xl font-bold tracking-wide leading-tight">Welcome to the AWS Cloud Club</h2>
+            <p class="mt-4 text-lg">Fostering innovation and learning in AWS technologies at Mapúa University.</p>
+            <div class="mt-6">
+                <button class="bg-yellow-400 text-black py-3 px-8 rounded-lg text-lg shadow-lg hover:bg-yellow-500 transition-all">
+                    Join Us
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Countdown Section -->
+    <section id="events" class="bg-gray-50 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Upcoming Event: AWS Cloud Workshop</h2>
+            <div class="text-lg mb-6">
+                <p class="mb-4">Countdown to the event:</p>
+                <p id="countdown" class="text-3xl font-bold text-orange-600">Loading...</p>
+            </div>
+            <a href="#register" class="bg-orange-600 text-white py-3 px-8 rounded-lg text-lg hover:bg-orange-700 transition-all">
+                Register Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="bg-orange-100 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Event Registration</h2>
+            <p class="text-lg text-gray-600 mb-6">Sign up to be a part of the AWS Cloud Workshop. Get hands-on experience and learn from experts!</p>
+            <button class="bg-yellow-400 text-black py-3 px-8 rounded-lg text-lg shadow-lg hover:bg-yellow-500 transition-all">
+                Register Here
+            </button>
+        </div>
+    </section>
+
+<!-- Blog Section -->
+<section id="blogs" class="bg-gray-50 py-16">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-8">Latest Blog Posts</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 px-4">
+            <!-- Blog Post 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:translate-y-1 transition-all">
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Exploring AWS Lambda for Serverless Architecture</h3>
+                <p class="text-gray-600 mb-4">Learn how AWS Lambda can simplify the creation of serverless applications with minimal infrastructure management.</p>
+                <a href="#" class="text-orange-600 hover:underline transition-colors">Read More</a>
+            </div>
+            <!-- Blog Post 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:translate-y-1 transition-all">
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Understanding AWS DynamoDB for Scalable Databases</h3>
+                <p class="text-gray-600 mb-4">Dive deep into AWS DynamoDB, a fully managed NoSQL database service designed for high scalability and low latency.</p>
+                <a href="#" class="text-orange-600 hover:underline transition-colors">Read More</a>
+            </div>
+            <!-- Blog Post 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:translate-y-1 transition-all">
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Optimizing Performance with AWS CloudFront</h3>
+                <p class="text-gray-600 mb-4">Discover how AWS CloudFront can accelerate content delivery and improve the performance of your web applications.</p>
+                <a href="#" class="text-orange-600 hover:underline transition-colors">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer id="contact" class="bg-orange-600 text-white text-center py-6">
+        <p>&copy; 2024 AWS Cloud Club - Mapúa University Manila</p>
+        <p>Contact: <a href="mailto:info@awscloudclub.com" class="text-yellow-400 hover:underline">info@awscloudclub.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
